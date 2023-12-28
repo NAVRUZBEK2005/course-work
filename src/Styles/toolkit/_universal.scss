@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 822px;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    font-family: $font_sans-serif;
+}
+.container{
+    max-width: $desktop_width;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+}
+@media screen and (max-width:1000px) {
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}

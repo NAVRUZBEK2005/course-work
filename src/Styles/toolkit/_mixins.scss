@@ -1,0 +1,25 @@
+@mixin h1($color){
+    font-family: $font_sans-serif;
+    font-style: normal;
+    font-weight: $h1_font_weight;
+    font-size: $h1_size;
+    color: $color;
+    line-height: $h1_line_height;
+    text-align: center;
+}
+@mixin h3($color){
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: $h3_font_weight;
+    font-size: $h3_size;
+    line-height: $h3_line_height;
+    text-align: center;
+    color: $color;
+}
+@mixin p($color){
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: $h3_font_weight;
+    font-size: calc(0.2vw + 13px);
+    line-height: 22px;
+    color: $color;
+}
